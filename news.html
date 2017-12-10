@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<!--
+    Created on    : 11-gen-2015, 18.20.06
+    Authors       : Alessio Borin, Dante Qyshka, Marco Tonet
+    Licensed under: Do What the Fuck You Want to Public License http://www.wtfpl.net/
+    CSS Framework : self developed
+    Reset CSS: Eric Mayer v2.0
+    CSS Icons: http://fontello.com/
+    Fonts: Google Webfonts Lato (sans-serif), Georgia (serif)
+-->
+<html>
+    <head>
+        <title>Notizie | HCI Lab</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic,900" rel="stylesheet" type="text/css">
+        <link rel="icon" href="favicon.png" type="image/png" />
+    </head>
+    <body>
+        <div id="grid-temp"></div>
+        <input type="checkbox" id="menu-toggle" class="hide-for-large hide-for-medium">
+        <label id="menu-toggle-label" class="hide-for-large hide-for-medium" for="menu-toggle" onclick="">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <aside id="menu">
+            <div id="side-logo" class="hide-for-mobile">
+                <a href="http://hcilab.uniud.it/it/" title="Human Computer Interaction Lab">
+                    <img src="img/logo-nav.svg" alt="Logo HCI Lab">
+                    HCI Lab
+                </a>
+            </div>
+            <nav id="side-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="news.html" class="current">Notizie</a></li>
+                    <li>
+                        <a href="media.html">Media</a>
+                        <div class="sub-menu">
+                            <a href="media.html">&gt; Radio & Tv</a>
+                            <a href="giornali.html">&gt; Giornali</a>
+                        </div>
+                    </li>
+                    <li><a href="chi-siamo.html">Chi Siamo</a>
+                        <div class="sub-menu">
+                            <a href="chi-siamo.html#contatti">&gt; Contatti</a>
+                        </div>
+                    </li>
+                    <li><a href="ricerche.html">Ricerca</a>
+                        <div class="sub-menu">
+                            <a href="ricerche.html#archivio-progetti">&gt; Archivio</a>
+                        </div>
+                    </li>
+                    <li><a href="pubblicazioni.html">Pubblicazioni</a></li>
+                    <li><a href="sponsor.html">Sponsor</a></li>
+                </ul>
+            </nav>
+            <div id="aside-footer">
+                <div class="social-networks row">
+                    <div class="col c4"><a href="https://www.facebook.com/hcilabudine" title="Facebook"><span class="icon-facebook"></span></a></div>
+                    <div class="col c4"><a href="https://twitter.com/HCILabUdine" title="Twitter"><span class="icon-twitter"></span></a></div>
+                    <div class="col c4"><a href="https://www.youtube.com/user/HCILabUdine" title="Youtube"><span class="icon-youtube"></span></a></div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="language">
+                    <a href="#" class="active">Italiano</a>|
+                    <a href="#">English</a>
+                </div>
+                <div class="row copyright">
+                    &copy; 2000 - 2015 Università di Udine, Italia. <a href="note-legali.html">Note legali.</a><br/>
+                    Logo HCI Lab di Pier Antonio Zanini, GrafCo3, Milano.
+                </div>
+            </div>
+        </aside>
+        <main id="container">
+            <header id="main-head" class="row hide-for-medium">
+                <div class="col c8 hide-for-mobile head">
+                    <h4 class="main-title">Human Computer Interaction Lab</h4>
+                    <h5 class="main-subtitle"><a href="https://www.dimi.uniud.it/" title="Dipartimento di Matematica e Informatica">Dipartimento di Matematica e Informatica</a></h5>
+                </div>
+                <div id="menu-toggle-placeholder" class="col cmob1 hide-for-large">
+
+                </div>
+                <div id="mobile-title" class="col cmob2 hide-for-large">
+                    Human Computer Interaction Lab
+                </div>
+                <div id="logo-hci-mob" class="col cmob1 hide-for-large">
+                    <img src="img/logo-nav.svg" alt="Logo HCI Lab">
+                </div>
+                <div id="logo-uniud" class="col c4 hide-for-mobile">
+                    <a href="http://www.uniud.it" title="Università di Udine &mdash; Università di Udine">
+                        <img src="img/logoUNIUD.svg" alt="Logo Università degli studi di Udine">
+                    </a>
+                </div>
+            </header>
+            <div class="row placeholder">
+                <img src="img/placeholder.svg" alt="Human Computer Interaction Image">
+            </div>
+            <section class="row pad max-1024 rich-text news">
+                <h2>News</h2>
+                <br/>
+                <div class="pubPage col c12 " id="1" >Pagina 1</div>
+                <ul class="pub-list news-list">
+                    <li class="col c12 cmob4">
+                        <article>
+                            <a href="http://hcilab.uniud.it/lifevest/">
+                                <h3>Impara a indossare un giubbotto di salvataggio in aereo</h3>
+                                <div class="fadeIn">
+                                    <p>
+                                        <span>12 Dicembre 2014 - </span>
+                                        Oggi abbiamo lanciato la nostra nuova app Life Vest, disponibile gratuitamente per tutte le principali piattaforme smartphone e tablet (Android, Apple, Windows Mobile). In tre diversi livelli di gioco, si interagisce con un passeggero per fargli indossare il giubbotto e per saltare dall&rsquo;aereo vivi. E' anche possibile affrontare sfide a tempo confrontare i risultati con quelli di altri giocatori. Il modello 3D del giubbotto di salvataggio &egrave; una riproduzione ad alta fedelt&agrave; di un vero e proprio giubbotto usato da molte compagnie aeree.
+                                    </p>
+                                    <p>
+                                        <span>Cliccare per vedere/scaricare l&rsquo;app</span>
+                                    </p>
+                                </div>
+                            </a>
+                        </article>
+                    </li>
+                    <li class="col c12 cmob4">
+                        <article>
+                            <a href="articolo-pubblicazione.html">
+                                <h3>Induzione dell'ansia attraverso la Realt&agrave; Virtuale</h3>
+                                <div class="fadeIn">
+                                    <p>
+                                        <span>07 Ottobre 2014 - </span>
+                                        Il nostro laboratorio ha condotto uno studio circa l'induzione dell'ansia attraverso la Realt&agrave; Virtuale, osservando come lo sfruttamento di biofeedback sonoro basato sul battito cardiaco possa rappresentare una tecnica efficace per generare ansia negli utenti. Questi risultati appaiono in un articolo che &egrave; appena stato pubblicato dalla rivista Interacting with Computers. Inoltre, lo studio &egrave; apparso nella sezione Science di Slashdot.
+                                    </p>
+                                    <p>
+                                        <span>Cliccare per  l&rsquo;articolo completo</span>
+                                    </p>
+                                </div>
+                            </a>
+                        </article>
+                    </li>
+                    <li class="col c12 cmob4">
+                        <article>
+                            <a href="http://hcilab.uniud.it/it/pubblicazioni/307.html">
+                                <h3>Efficacia delle applicazioni mobili per l'addestramento alla respirazione</h3>
+                                <div class="fadeIn">
+                                    <p>
+                                        <span>20 Agosto 2014 - </span>
+                                        Sui vari store on-line sono presenti centinaia di applicazioni mobili per l'addestramento alla respirazione, ma nessuno finora ha mai valutato la loro efficacia. Il nostro laboratorio ha quindi condotto uno studio su una applicazione mobile di questo tipo, prestando particolare attenzione ai parametri fisiologici dell&rsquo;utente e alle sue percezioni soggettive. I risultati mostrano come differenti rappresentazioni grafiche del processo di respirazione possano contribuire all'efficacia dell'applicazione in esame. I risultati sono stati raccolti in un articolo che &egrave; appena stato pubblicato sulla rivista Computers in Human Behavior.
+                                    </p>
+                                    <p>
+                                        <span>Cliccare per  l&rsquo;articolo completo</span>
+                                    </p>
+                                </div>
+                            </a>
+                        </article>
+                    </li>
+                    <li class="col c12 cmob4">
+                        <article>
+                            <a href="http://hcilab.uniud.it/it/pubblicazioni/308.html">
+                                <h3>NeuroImage pubblica un esperimento di Realt&agrave; Virtuale svolto nel nostro laboratorio</h3>
+                                <div class="fadeIn">
+                                    <p>
+                                        <span>24 Luglio 2014 - </span>
+                                        NeuroImage, una delle riviste internazionali di neuroscienze più importanti, ha appena pubblicato un nostro articolo dove descriviamo l&rsquo;analisi dell&rsquo;attivit&agrave; cerebrale, attraverso la fMRI, di utenti immersi in una delle nostre esperienze in Realt&agrave; Virtuale che simulano situazioni di estremo rischio per la vita. I risultati mostrano come ci siano differenze nell'attivit&agrave; cerebrale tra gli utenti che sono fuggiti e coloro che invece hanno aiutato il personaggio virtuale.
+                                    </p>
+                                    <p>
+                                        <span>Cliccare per  l&rsquo;articolo completo</span>
+                                    </p>
+                                </div>
+                            </a>
+                        </article>
+                    </li>
+                    <li class="col c12 cmob4">
+                        <article>
+                            <a href="http://hcilab.uniud.it/it/pubblicazioni/305.html">
+                                <h3>Importanza della valutazione dell&rsquo;Effetto Placebo negli studi sull&rsquo;Affective Computing</h3>
+                                <div class="fadeIn">
+                                    <p>
+                                        <span>16 Luglio 2014 - </span>
+                                        L&rsquo;International Journal of Human-Computer Studies ha appena pubblicato la nostra recente valutazione di differenti metodologie per il controllo di personaggi virtuali attraverso i segnali fisiologici dell&rsquo;utente (leggi la news). I risultati presentati nell&rsquo;articolo sottolineano l&rsquo;importanza di includere una condizione Placebo negli studi sull&rsquo;Affective Computing. Questo nostro studio &egrave; apparso nella sezione Science di Slashdot.
+                                    </p>
+                                    <p>
+                                        <span>Cliccare per  l&rsquo;articolo completo</span>
+                                    </p>
+                                </div>
+                            </a>
+                        </article>
+                    </li>
+                    <li class="col c12 cmob4">
+                        <article>
+                            <a href="http://hcilab.uniud.it/lifevest/">
+                                <h3>Controllare il personaggio di un videogioco attraverso le emozioni dell'utente</h3>
+                                <div class="fadeIn">
+                                    <p>
+                                        <span>12 Giugno 2014 - </span>
+                                        Abbiamo condotto uno studio di laboratorio al fine di valutare differenti metodologie per controllare il comportamento di un personaggio virtuale attraverso i segnali fisiologici dell'utente in un videogioco per l'addestramento al rilassamento (vedi il video). Il sistema di controllo del personaggio &egrave; apparso su noti siti web internazionali come Rock-Paper-Shotgun e la sezione Games di Slashdot.
+                                    </p>
+                                    <p>
+                                        <span>Cliccare guardare il video</span>
+                                    </p>
+                                </div>
+                            </a>
+                        </article>
+                    </li>
+                </ul>
+                <ul class="page">
+                    <li><a href="#1">1</a>
+                    <li><a href="#2">2</a>
+                    <li><a href="#3">3</a>
+                    <li><a href="#4">4</a>
+                    <li><a href="#5">5</a>
+                    <li><a href="#6">6</a>
+                    <li><a href="#7">7</a>
+                </ul>
+            </section>
+        </main>
+    </body>
+</html>

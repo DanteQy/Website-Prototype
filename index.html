@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<!--
+    Created on    : 11-gen-2015, 18.20.06
+    Authors       : Alessio Borin, Dante Qyshka, Marco Tonet
+    Licensed under: Do What the Fuck You Want to Public License http://www.wtfpl.net/
+    CSS Framework : self developed
+    Reset CSS: Eric Mayer v2.0
+    CSS Icons: http://fontello.com/
+    Fonts: Google Webfonts Lato (sans-serif), Georgia (serif)
+    Credits for the exsoskeleton-robot image: http://www.eksobionics.com/
+-->
+<html>
+    <head>
+        <title>Human Computer Interaction Lab | Uniud</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic,900' rel='stylesheet' type='text/css'>
+        <link rel="icon" href="favicon.png" type="image/png" />
+    </head>
+    <body>
+        <div id="grid-temp"></div>
+        <input type="checkbox" id="menu-toggle" class="hide-for-large hide-for-medium">
+        <label id="menu-toggle-label" class="hide-for-large hide-for-medium" for="menu-toggle" onclick="">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <aside id="menu">
+            <div id="side-logo" class="hide-for-mobile">
+                <a href="http://hcilab.uniud.it/it/" title="Human Computer Interaction Lab">
+                    <img src="img/logo-nav.svg" alt="Logo HCI Lab">
+                    HCI Lab
+                </a>
+            </div>
+            <nav id="side-nav">
+                <ul>
+                    <li><a href="index.html" class="current">Home</a></li>
+                    <li><a href="news.html">Notizie</a></li>
+                    <li>
+                        <a href="media.html">Media</a>
+                        <div class="sub-menu">
+                            <a href="media.html">&gt; Radio & Tv</a>
+                            <a href="giornali.html">&gt; Giornali</a>
+                        </div>
+                    </li>
+                    <li><a href="chi-siamo.html">Chi Siamo</a>
+                        <div class="sub-menu">
+                            <a href="chi-siamo.html#contatti">&gt; Contatti</a>
+                        </div>
+                    </li>
+                    <li><a href="ricerche.html">Ricerca</a>
+                        <div class="sub-menu">
+                            <a href="ricerche.html#archivio-progetti">&gt; Archivio</a>
+                        </div>
+                    </li>
+                    <li><a href="pubblicazioni.html">Pubblicazioni</a></li>
+                    <li><a href="sponsor.html">Sponsor</a></li>
+                </ul>
+            </nav>
+            <div id="aside-footer">
+                <div class="social-networks row">
+                    <div class="col c4"><a href="https://www.facebook.com/hcilabudine" title="Facebook"><span class="icon-facebook"></span></a></div>
+                    <div class="col c4"><a href="https://twitter.com/HCILabUdine" title="Twitter"><span class="icon-twitter"></span></a></div>
+                    <div class="col c4"><a href="https://www.youtube.com/user/HCILabUdine" title="Youtube"><span class="icon-youtube"></span></a></div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="language">
+                    <a href="#" class="active">Italiano</a>|
+                    <a href="#">English</a>
+                </div>
+                <div class="row copyright">
+                    &copy; 2000 - 2015 Università di Udine, Italia. <a href="note-legali.html">Note legali.</a><br/>
+                    Logo HCI Lab di Pier Antonio Zanini, GrafCo3, Milano.
+                </div>
+            </div>
+        </aside>
+        <main id="container">
+            <header id="main-head" class="row hide-for-medium">
+                <div class="col c8 hide-for-mobile head">
+                    <h1 class="main-title">Human Computer Interaction Lab</h1>
+                    <h5 class="main-subtitle"><a href="https://www.dimi.uniud.it/" title="Dipartimento di Matematica e Informatica">Dipartimento di Matematica e Informatica</a></h5>
+                </div>
+                <div id="menu-toggle-placeholder" class="col cmob1 hide-for-large">
+
+                </div>
+                <div id="mobile-title" class="col cmob2 hide-for-large">
+                    Human Computer Interaction Lab
+                </div>
+                <div id="logo-hci-mob" class="col cmob1 hide-for-large">
+                    <img src="img/logo-nav.svg" alt="Logo HCI Lab">
+                </div>
+                <div id="logo-uniud" class="col c4 hide-for-mobile">
+                    <a href="http://www.uniud.it" title="Università di Udine &mdash; Università di Udine">
+                        <img src="img/logoUNIUD.svg" alt="Logo Università degli studi di Udine">
+                    </a>
+                </div>
+            </header>
+            <div class="row" id="ekso">
+                <img src="img/ekso.jpg" alt="EKSO HCI example">
+                <!-- Credits for the exsoskeleton-robot image: http://www.eksobionics.com/ -->
+                <blockquote>&ldquo;
+                    The computer is the essence of the human being.<br/> In the computer, man reaches his completion
+                    &rdquo;
+                    <cite><a href="http://quotes.dictionary.com/The_archetype_of_all_humans_their_ideal_image">Friedrich Dürrenmatt</a></cite>
+                </blockquote>
+            </div>
+            <section class="row pad max-768 rich-text">
+                <h2>Il Laboratorio</h2>
+                <p>Il Laboratorio di Interazione Uomo-Macchina (HCI Lab) dell'Università di Udine è stato fondato nel 1998 dal prof. Luca Chittaro. La nostra missione è di studiare nuovi modi di interagire con le tecnologie e come esse possano migliorare le nostre vite.</p>
+                <p>Ci focalizziamo in particolare su App Mobili, Realtà Virtuale e Serious Game. Sfruttiamo il loro potenziale per creare applicazioni innovative in diversi domini, specialmente per la Sicurezza e la Salute.</p>
+            </section>
+            <div class="row placeholder">
+                <img src="img/placeholder.svg" alt="Human Computer Interaction Image">
+            </div>
+            <section class="row pad max-1024">
+                <h2>Ultime News</h2>
+                <ul class="pub-list news-list">
+                    <li class="col c6 cmob4">
+                        <article>
+                            <a href="http://hcilab.uniud.it/lifevest/">
+                                <h3>Impara a indossare un giubbotto di salvataggio in aereo</h3>
+                                <div class="fadeIn">
+                                    <p>
+                                        <span>12 Dicembre 2014 - </span>
+                                        Oggi abbiamo lanciato la nostra nuova app Life Vest, disponibile gratuitamente per tutte le principali piattaforme smartphone e tablet (Android, Apple, Windows Mobile)... (continua)
+                                    </p>
+                                    <p>
+                                        <span>Cliccare per vedere/scaricare l&rsquo;app</span>
+                                    </p>
+                                </div>
+                            </a>
+                        </article>
+                    </li>
+                    <li class="col c6 cmob4">
+                        <article>
+                            <a href="articolo-pubblicazione.html">
+                                <h3>Induzione dell'ansia attraverso la Realt&agrave; Virtuale</h3>
+                                <div class="fadeIn">
+                                    <p>
+                                        <span>07 Ottobre 2014 - </span>
+                                        Il nostro laboratorio ha condotto uno studio circa l'induzione dell'ansia attraverso la Realt&agrave; Virtuale, osservando come lo sfruttamento di biofeedback sonoro... (continua)
+                                    </p>
+                                    <p>
+                                        <span>Cliccare per  l&rsquo;articolo completo</span>
+                                    </p>
+                                </div>
+                            </a>
+                        </article>
+                    </li>
+                    <li class="col c6 cmob4">
+                        <article>
+                            <a href="http://hcilab.uniud.it/it/pubblicazioni/307.html">
+                                <h3>Efficacia delle applicazioni mobili per l'addestramento alla respirazione</h3>
+                                <div class="fadeIn">
+                                    <p>
+                                        <span>20 Agosto 2014 - </span>
+                                        Sui vari store on-line sono presenti centinaia di applicazioni mobili per l'addestramento alla respirazione, ma nessuno finora ha mai valutato la loro efficacia. Il nostro... (continua)
+                                    </p>
+                                    <p>
+                                        <span>Cliccare per  l&rsquo;articolo completo</span>
+                                    </p>
+                                </div>
+                            </a>
+                        </article>
+                    </li>
+                    <li class="col c6 cmob4">
+                        <article>
+                            <a href="http://hcilab.uniud.it/it/pubblicazioni/308.html">
+                                <h3>NeuroImage pubblica un esperimento di Realt&agrave; Virtuale svolto nel nostro laboratorio</h3>
+                                <div class="fadeIn">
+                                    <p>
+                                        <span>24 Luglio 2014 - </span>
+                                        NeuroImage, una delle riviste internazionali di neuroscienze più importanti, ha appena pubblicato un nostro articolo dove descriviamo l&rsquo;analisi dell&rsquo;attivit&agrave; cerebrale... (continua)
+                                    </p>
+                                    <p>
+                                        <span>Cliccare per  l&rsquo;articolo completo</span>
+                                    </p>
+                                </div>
+                            </a>
+                        </article>
+                    </li>
+                </ul>
+            </section>
+        </main>
+    </body>
+</html>

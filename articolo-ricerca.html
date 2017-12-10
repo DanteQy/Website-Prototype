@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!--
+    Created on    : 11-gen-2015, 18.20.06
+    Authors       : Alessio Borin, Dante Qyshka, Marco Tonet
+    Licensed under: Do What the Fuck You Want to Public License http://www.wtfpl.net/
+    CSS Framework : self developed
+    Reset CSS: Eric Mayer v2.0
+    CSS Icons: http://fontello.com/
+    Fonts: Google Webfonts Lato (sans-serif), Georgia (serif)
+-->
+<html>
+    <head>
+        <title>Visualizzazione delle Informazioni su Dispositivi Mobili | HCI Lab</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic,900' rel='stylesheet' type='text/css'>
+        <link rel="icon" href="favicon.png" type="image/png" />
+    </head>
+    <body>
+        <div id="grid-temp"></div>
+        <input type="checkbox" id="menu-toggle" class="hide-for-large hide-for-medium">
+        <label id="menu-toggle-label" class="hide-for-large hide-for-medium" for="menu-toggle" onclick="">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <aside id="menu">
+            <div id="side-logo" class="hide-for-mobile">
+                <a href="http://hcilab.uniud.it/it/" title="Human Computer Interaction Lab">
+                    <img src="img/logo-nav.svg" alt="Logo HCI Lab">
+                    HCI Lab
+                </a>
+            </div>
+            <nav id="side-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="news.html">Notizie</a></li>
+                    <li>
+                        <a href="media.html">Media</a>
+                        <div class="sub-menu">
+                            <a href="media.html">&gt; Radio & Tv</a>
+                            <a href="giornali.html">&gt; Giornali</a>
+                        </div>
+                    </li>
+                    <li><a href="chi-siamo.html">Chi Siamo</a>
+                        <div class="sub-menu">
+                            <a href="chi-siamo.html#contatti">&gt; Contatti</a>
+                        </div>
+                    </li>
+                    <li><a href="ricerche.html" class="current">Ricerca</a>
+                        <div class="sub-menu">
+                            <a href="ricerche.html#archivio-progetti">&gt; Archivio</a>
+                        </div>
+                    </li>
+                    <li><a href="pubblicazioni.html">Pubblicazioni</a></li>
+                    <li><a href="sponsor.html">Sponsor</a></li>
+                </ul>
+            </nav>
+            <div id="aside-footer">
+                <div class="social-networks row">
+                    <div class="col c4"><a href="https://www.facebook.com/hcilabudine" title="Facebook"><span class="icon-facebook"></span></a></div>
+                    <div class="col c4"><a href="https://twitter.com/HCILabUdine" title="Twitter"><span class="icon-twitter"></span></a></div>
+                    <div class="col c4"><a href="https://www.youtube.com/user/HCILabUdine" title="Youtube"><span class="icon-youtube"></span></a></div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="language">
+                    <a href="#" class="active">Italiano</a>|
+                    <a href="#">English</a>
+                </div>
+                <div class="row copyright">
+                    &copy; 2000 - 2015 Università di Udine, Italia. <a href="note-legali.html">Note legali.</a><br/>
+                    Logo HCI Lab di Pier Antonio Zanini, GrafCo3, Milano.
+                </div>
+            </div>
+        </aside>
+        <main id="container">
+            <header id="main-head" class="row hide-for-medium">
+                <div class="col c8 hide-for-mobile head">
+                    <h4 class="main-title">Human Computer Interaction Lab</h4>
+                    <h5 class="main-subtitle"><a href="https://www.dimi.uniud.it/" title="Dipartimento di Matematica e Informatica">Dipartimento di Matematica e Informatica</a></h5>
+                </div>
+                <div id="menu-toggle-placeholder" class="col cmob1 hide-for-large">
+
+                </div>
+                <div id="mobile-title" class="col cmob2 hide-for-large">
+                    Human Computer Interaction Lab
+                </div>
+                <div id="logo-hci-mob" class="col cmob1 hide-for-large">
+                    <img src="img/logo-nav.svg" alt="Logo HCI Lab">
+                </div>
+                <div id="logo-uniud" class="col c4 hide-for-mobile">
+                    <a href="http://www.uniud.it" title="Università di Udine &mdash; Università di Udine">
+                        <img src="img/logoUNIUD.svg" alt="Logo Università degli studi di Udine">
+                    </a>
+                </div>
+            </header>
+            <div class="row placeholder">
+                <img src="img/placeholder.svg" alt="Human Computer Interaction Image">
+            </div>
+            <article class="row pad max-768 rich-text article">
+                <div class="article">
+                    <h1>Visualizzazione delle Informazioni su Dispositivi Mobili</h1>
+                    <p>La visualizzazione di informazioni ha un ruolo rilevante in quasi ogni tipo di applicazione per computer. E' quindi naturale pensare di utilizzare le tecniche di visualizzazione anche su dispositivi mobili (quali gli smartphone) per poterle sfruttare in ogni luogo ed in ogni momento. Purtroppo, le limitazioni dei dispositivi mobili (ad esempio, lo spazio su schermo ridotto) rendono impossibile impiegare direttamente le soluzioni sviluppate su computer desktop. In questo progetto, stiamo studiando visualizzazioni specifiche per il contesto mobile, focalizzandoci sui 6 aspetti principali che dovrebbero essere presi in considerazione nel processo di progettazione: (i) come codificare l'informazione visualmente, (ii) come selezionare i dati piu' rilevanti per il task considerato, (iii) come presentare la visualizzazione nello spazio disponibile a schermo, (iv) quali strumenti mettere a disposizione per l'esplorazione e la manipolazione della visualizzazione, (v) come tenere in considerazione le capacita' percettive e cognitive dell'essere umano, (vi) come verificare l'efficacia della visualizzazione sugli utenti.</p>
+                    <span class="comment">click sull'immagine per ingrandire</span>
+                    <div class="row">
+                        <a href="img/ricerca/ric1.jpg" class="col c3 cmob1" title="Piantina"><img src="img/ricerca/ric1.jpg" alt="piantina"></a>
+                        <a href="img/ricerca/ric2.jpg" class="col c3 cmob1" title="Mappa"><img src="img/ricerca/ric2.jpg" alt="mappa"></a>
+                        <a href="img/ricerca/ric3.jpg" class="col c3 cmob1" title="Sezione"><img src="img/ricerca/ric3.jpg"	alt="sezione"></a>
+                    </div>			
+                </div>
+                <h4>Pubblicazioni correlate</h4>
+                <ul class="related">
+                    <li><a href="publications.html/#201401">Anxiety Induction in Virtual Environments: An Experimental Comparison of Three General Techniques</a>
+                    </li>
+                    <li><a href="publications.html/#201402">Evaluating mobile apps for breathing training: The effectiveness of visualization</a>
+                    </li>
+                    <li><a href="publications.html/#201301">ETime perspective as a predictor of problematic Internet use: a study of Facebook users</a>
+                    </li>
+                    <li><a href="publications.html/#201304">Exploring Audio Storytelling in Mobile Exergames to Affect the Perception of Physical Exercise (BEST PAPER AWARD)</a>
+                    </li>
+                    <li><a href="publications.html/#201306">On the effectiveness of Overview+Detail visualization on mobile devices</a>
+                    </li>
+                </ul>
+            </article>
+        </main>
+    </body>
+</html>
+

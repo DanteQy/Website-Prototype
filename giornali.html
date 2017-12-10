@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<!--
+    Created on    : 11-gen-2015, 18.20.06
+    Authors       : Alessio Borin, Dante Qyshka, Marco Tonet
+    Licensed under: Do What the Fuck You Want to Public License http://www.wtfpl.net/
+    CSS Framework : self developed
+    Reset CSS: Eric Mayer v2.0
+    CSS Icons: http://fontello.com/
+    Fonts: Google Webfonts Lato (sans-serif), Georgia (serif)
+-->
+<html>
+    <head>
+        <title>Menzioni dai Giornali | HCI Lab</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic,900' rel='stylesheet' type='text/css'>
+        <link rel="icon" href="favicon.png" type="image/png" />
+    </head>
+    <body class="giornali">
+        <div id="grid-temp"></div>
+        <input type="checkbox" id="menu-toggle" class="hide-for-large hide-for-medium">
+        <label id="menu-toggle-label" class="hide-for-large hide-for-medium" for="menu-toggle" onclick="">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <aside id="menu">
+            <div id="side-logo" class="hide-for-mobile">
+                <a href="http://hcilab.uniud.it/it/" title="Human Computer Interaction Lab">
+                    <img src="img/logo-nav.svg" alt="Logo HCI Lab">
+                    HCI Lab
+                </a>
+            </div>
+            <nav id="side-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="news.html">Notizie</a></li>
+                    <li>
+                        <a href="media.html" class="current">Media</a>
+                        <div class="sub-menu">
+                            <a href="media.html">&gt; Radio & Tv</a>
+                            <a href="giornali.html">&gt; Giornali</a>
+                        </div>
+                    </li>
+                    <li><a href="chi-siamo.html">Chi Siamo</a>
+                        <div class="sub-menu">
+                            <a href="chi-siamo.html#contatti">&gt; Contatti</a>
+                        </div>
+                    </li>
+                    <li><a href="ricerche.html">Ricerca</a>
+                        <div class="sub-menu">
+                            <a href="ricerche.html#archivio-progetti">&gt; Archivio</a>
+                        </div>
+                    </li>
+                    <li><a href="pubblicazioni.html">Pubblicazioni</a></li>
+                    <li><a href="sponsor.html">Sponsor</a></li>
+                </ul>
+            </nav>
+            <div id="aside-footer">
+                <div class="social-networks row">
+                    <div class="col c4"><a href="https://www.facebook.com/hcilabudine" title="Facebook"><span class="icon-facebook"></span></a></div>
+                    <div class="col c4"><a href="https://twitter.com/HCILabUdine" title="Twitter"><span class="icon-twitter"></span></a></div>
+                    <div class="col c4"><a href="https://www.youtube.com/user/HCILabUdine" title="Youtube"><span class="icon-youtube"></span></a></div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="language">
+                    <a href="#" class="active">Italiano</a>|
+                    <a href="#">English</a>
+                </div>
+                <div class="row copyright">
+                    &copy; 2000 - 2015 Università di Udine, Italia. <a href="note-legali.html">Note legali.</a><br/>
+                    Logo HCI Lab di Pier Antonio Zanini, GrafCo3, Milano.
+                </div>
+            </div>
+        </aside>
+        <main id="container">
+            <header id="main-head" class="row hide-for-medium">
+                <div class="col c8 hide-for-mobile head">
+                    <h4 class="main-title">Human Computer Interaction Lab</h4>
+                    <h5 class="main-subtitle"><a href="https://www.dimi.uniud.it/" title="Dipartimento di Matematica e Informatica">Dipartimento di Matematica e Informatica</a></h5>
+                </div>
+                <div id="menu-toggle-placeholder" class="col cmob1 hide-for-large">
+
+                </div>
+                <div id="mobile-title" class="col cmob2 hide-for-large">
+                    Human Computer Interaction Lab
+                </div>
+                <div id="logo-hci-mob" class="col cmob1 hide-for-large">
+                    <img src="img/logo-nav.svg" alt="Logo HCI Lab">
+                </div>
+                <div id="logo-uniud" class="col c4 hide-for-mobile">
+                    <a href="http://www.uniud.it" title="Università di Udine &mdash; Università di Udine">
+                        <img src="img/logoUNIUD.svg" alt="Logo Università degli studi di Udine">
+                    </a>
+                </div>
+            </header>
+            <div class="row placeholder">
+                <img src="img/placeholder.svg" alt="Human Computer Interaction Image">
+            </div>
+            <section class="row max-1024 pad border">
+                <h1>Articoli giornali</h1>
+                <ul class="people row">
+                    <li class="col c6 cmob4">
+                            <div class="row">
+                                <div class="col c4 left">
+                                    <figure class="box_giornali"><img src="img/giornali/png.png" alt="corriere"></figure>
+                                </div>
+                                <div class="col c8 right">
+                                    <a href="http://www.corriere.it/scienze/14_maggio_05/aerei-piu-attenzione-le-istruzioni-sicurezza-interattive-760d6c72-d43e-11e3-9778-04e759d64fc3.shtml">
+                                        <span class="synopsis">Il Corriere parla del nostro progetto sulla sicurezza dei passeggeri nelle pagine di Scienze</span><br/>
+                                    </a>    
+                                        <span class="preview">TIME, il prestigioso settimanale con il maggior numero di lettori al mondo,
+                                        ha dedicato oggi un articolo all'esperimento in Realtà Virtuale svoltosi presso il nostro laboratorio in collaborazione con SISSA Social Neuroscience Lab.</span>
+                                </div>
+                            </div>
+                    </li>
+                    <li class="col c6 cmob4">
+                            <div class="row">
+                                <div class="col c4 left">
+                                    <figure class="box_giornali"><img src="img/giornali/time.png" alt="time"></figure>
+                                </div>
+                                <div class="col c8 right">
+                                    <a href="http://hcilab.uniud.it/images/stories/aboutus/itpress48/time_magazine_vr.pdf">
+                                        <span class="synopsis">TIME dedica un articolo ad un esperimento di Realtà Virtuale svolto in HCI Lab</span><br/>
+                                    </a>    
+                                        <span class="preview">L'uso dei videogiochi per scopi seri di motivazione ed addestramento e' il tema a cui la rivista Focus, nel numero 221 di Marzo, ha dedicato un ampio servizio,
+                                        parlando delle ricerche svolte dal nostro laboratorio sia nel settore delle emergenze che di quello dell'esercizio fisico.</span>
+                                </div>
+                            </div>
+                    </li>
+                    <li class="col c6 cmob4">
+                            <div class="row">
+                                <div class="col c4 left">
+                                    <figure class="box_giornali"><img src="img/giornali/starbene.png" alt="starbene"></figure>
+                                </div>
+                                <div class="col c8 right">
+                                    <a href="http://hcilab.uniud.it/images/stories/aboutus/itpress45/scansione.jpg">
+                                        <span class="synopsis">Il mensile di salute Starbene intervista il direttore del nostro laboratorio</span><br/>
+                                    </a>    
+                                        <span class="preview">Quali strategie dobbiamo seguire per usare la rete in modo efficace e sano?
+                                        Queste alcune delle domande rivolte a Luca Chittaro dalla popolare rivista del gruppo Mondadori, nel numero di Aprile 2010.</span>
+                                </div>
+                            </div>
+                    </li>
+                    <li class="col c6 cmob4">
+                            <div class="row">
+                                <div class="col c4 left">
+                                    <figure class="box_giornali"><img src="img/giornali/societe.png" alt="societe"></figure>
+                                </div>
+                                <div class="col c8 right">
+                                    <a href="http://hcilab.uniud.it/images/stories/aboutus/itpress44/scansione.jpg ">
+                                        <span class="synopsis">Anche Societe', mensile sul lusso, parla del progetto di Mobile Personal Trainer del nostro laboratorio </span><br/>
+                                    </a>    
+                                        <span class="preview">L'acronimo Evita sta per "Embodied Virtual Trainer", un'allenatrice tascabile in grado suggerire percorso e ritmo migliore, di monitorare il reale andamento dell'attivita' fisica,
+                                        il grado di affaticamento e la concentrazione di ossigeno nel sangue.    </span>
+                                </div>
+                            </div>
+                    </li> 
+                    <li class="col c6 cmob4">
+                            <div class="row">
+                                <div class="col c4 left">
+                                    <figure class="box_giornali"><img src="img/giornali/24ore.png" alt="24ore"></figure>
+                                </div>
+                                <div class="col c8 right">
+                                    <a href="http://hcilab.uniud.it/images/stories/aboutus/itpress43/scansione.gif">
+                                        <span class="synopsis">Il laboratorio di Interazione Uomo-Macchina segnalato dal Sole 24 ore fra i cinque centri di eccellenza per il rapporto con le imprese </span><br/>
+                                    </a>    
+                                        <span class="preview">Imprese-atenei, le sinergie che funzionano.
+                                        I centri di eccellenza si stanno aprendo sempre piu' al dialogo con le aziende, a costi contenuti.</span>
+                                </div>
+                            </div>
+                    </li>
+                    <li class="col c6 cmob4">
+                            <div class="row">
+                                <div class="col c4 left">
+                                    <figure class="box_giornali"><img src="img/giornali/jack.png" alt="jack"></figure>
+                                </div>
+                                <div class="col c8 right">
+                                    <a href="http://hcilab.uniud.it/images/stories/aboutus/itpress42/scansione.gif">
+                                        <span class="synopsis">Il mensile tecnologico Jack parla del nostro progetto di Mobile Personal Trainer</span><br/>
+                                    </a>    
+                                        <span class="preview">Training col Palmare.	Il personal trainer? Lo metterai in tasca.
+                                        Un team di ricercatori dell'Universita' di Udine ha sviluppato il prototipo Mopet, presentato all'ultima edizione della fiera Virtuality a Torino. </span>
+                                </div>
+                            </div>
+                    </li>
+                    <li class="col c6 cmob4">
+                            <div class="row">
+                                <div class="col c4 left">
+                                    <figure class="box_giornali"><img src="img/giornali/mveneto.png" alt="mveneto"></figure>
+                                </div>
+                                <div class="col c8 right">
+                                    <a href="http://hcilab.uniud.it/images/stories/aboutus/itpress41/scansione.gif">
+                                        <span class="synopsis">Il nostro laboratorio realizza il Virtual Reality Theatre del centro di ricerca CirMont</span><br/>
+                                    </a>    
+                                        <span class="preview">I laboratori di ricerca CirMont inaugurati dal presidente Illy.	Il Virtual Reality Theatre (VRT) integra alla proiezione 3D un insieme di sensori che rilevano il movimento umano,
+                                        permettendo agli spettatori di interagire con le visualizzazioni stereoscopiche mediante tecniche gestuali intuitive.</span>
+                                </div>
+                            </div>
+                    </li>
+                    <li class="col c6 cmob4">
+                            <div class="row">
+                                <div class="col c4 left">
+                                    <figure class="box_giornali"><img src="img/giornali/vanity.png" alt="vanity"></figure>
+                                </div>
+                                <div class="col c8 right">
+                                    <a href="http://hcilab.uniud.it/images/stories/aboutus/itpress40/scansione.gif">
+                                        <span class="synopsis">Il progetto Mopet del nostro laboratorio sulla rubrica tecnologica di Vanity Fair</span><br/>
+                                    </a>    
+                                        <span class="preview">Con il personal trainer in tasca.	Percorsi ed esercizi da fare, valutazione dei progressi.</span>
+                                </div>
+                            </div>
+                    </li>
+                    <li class="col c6 cmob4">
+                            <div class="row">
+                                <div class="col c4 left">
+                                    <figure class="box_giornali"><img src="img/giornali/repubblica.png" alt="repubblica"></figure>
+                                </div>
+                                <div class="col c8 right">
+                                    <a href="http://www.repubblica.it/2006/04/sezioni/scuola_e_universita/servizi/friuli-terremoto/friuli-terremoto/friuli-terremoto.html">
+                                        <span class="synopsis">La ricostruzione virtuale del sisma del friuli realizzata dall'HCI Lab su Repubblica</span><br/>
+                                    </a>    
+                                        <span class="preview">Trent'anni dopo il Friuli trema ancora ma questa volta è solo sul computer.</span>
+                                </div>
+                            </div>
+                    </li>
+                </ul>
+            </section>
+            
+        </main>
+    </body>
+</html>
